@@ -1,14 +1,21 @@
 /* General body styles */
 body {
+<<<<<<< HEAD
     font-family: 'Poppins', sans-serif;
     background-color: #f4f7fc;
     color: #333;
     margin: 0;
     padding: 0;
+=======
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+>>>>>>> f166ed1b50af1acb5b0870695acd8f5b2b0032b1
 }
 
 /* Header Section */
 header {
+<<<<<<< HEAD
     background: linear-gradient(to right, #4A90E2, #8E44AD);
     padding: 15px 0;
     text-align: center;
@@ -60,20 +67,36 @@ select:focus {
 /* Product Card Styles */
 .product-card {
     margin-bottom: 30px;
+=======
+    background-color: #4e73df;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 600;
+>>>>>>> f166ed1b50af1acb5b0870695acd8f5b2b0032b1
 }
 
 /* Card Styles */
 .card {
     border: none;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+<<<<<<< HEAD
     transition: all 0.3s ease-in-out;
     border-radius: 10px;
+=======
+    transition: transform 0.3s ease-in-out;
+>>>>>>> f166ed1b50af1acb5b0870695acd8f5b2b0032b1
 }
 
 .card:hover {
     transform: scale(1.05);
 }
 
+<<<<<<< HEAD
 .card-img-top {
     height: 250px;
     object-fit: cover;
@@ -101,16 +124,103 @@ select:focus {
 .btn-warning:hover {
     background: linear-gradient(to right, #8E44AD, #4A90E2);
     transform: scale(1.05);
+=======
+/* Card Image */
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Card body */
+.card-body {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+/* Button Styles */
+.btn-primary, .btn-warning {
+    background-color: #ff6f61;
+    border-color: #ff6f61;
+}
+
+.btn-primary:hover, .btn-warning:hover {
+    background-color: #ff4a3a;
+    border-color: #ff4a3a;
+}
+
+/* Category filter */
+select#category-filter {
+    background-color: #ffeb3b;
+    color: #333;
+    padding: 4px;
+    border: 2px solid #ffeb3b;
+    font-size: 1rem;
+}
+
+select#category-filter:focus {
+    outline: none;
+    border-color: #ffca28;
+}
+
+/* Brand filter */
+select#brand-filter {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 4px;
+    border: 2px solid #4caf50;
+    font-size: 1rem;
+}
+
+select#brand-filter:focus {
+    outline: none;
+    border-color: #388e3c;
+}
+
+/* Search Bar */
+input#search {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
+
+input#search:focus {
+    outline: none;
+    border-color: #4e73df;
+}
+
+/* Product Cards Layout */
+.product-card {
+    margin-bottom: 30px;
+>>>>>>> f166ed1b50af1acb5b0870695acd8f5b2b0032b1
 }
 
 /* Footer Section */
 footer {
+<<<<<<< HEAD
     background-color: #2C3E50;
     color: white;
+=======
+    background-color: #343a40;
+    color: #fff;
+>>>>>>> f166ed1b50af1acb5b0870695acd8f5b2b0032b1
     padding: 10px 0;
     text-align: center;
 }
 
+<<<<<<< HEAD
 /* ==================== */
 /* Login & Signup Styles */
 /* ==================== */
@@ -216,3 +326,12 @@ p.mt-3.text-center a:hover {
         padding: 20px;
     }
 }
+=======
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+>>>>>>> f166ed1b50af1acb5b0870695acd8f5b2b0032b1
